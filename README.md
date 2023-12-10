@@ -2,7 +2,7 @@
 
 - Overview​:
 
-  - The dataset is a product of collaborative efforts from 138,493 users, each having provided ratings for a minimum of 20 movies.​ It is the MovieLens dataset from Kaggle
+  - The dataset is a product of collaborative efforts from 138,493 users, each having provided ratings for a minimum of 20 movies.​ It is the MovieLens dataset from Kaggle: https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
 
 - Dataset Insights​
 
@@ -38,7 +38,15 @@
    
 - Results
   - Matrix Factorization – Best Score = 0.891​
-  - Item based Collaborative Filtering – As it works based on correlation, we get a different set of recommendations for different users based on the movies that they have watched. 
+  - Item based Collaborative Filtering – As it works based on correlation, we get a different set of recommendations for different users based on the movies that they have watched.
   - Neural Network based Collaborative Filtering - We get a hit of 0.84, which means that 84% of the users got recommended the movie from the top 10 that they have interacted with. Which is a satisfactory score. ​
+
+- References
+
+  - https://towardsdatascience.com/neural-collaborative-filtering-96cef1009401
+  - https://www.mygreatlearning.com/blog/matrix-factorization-explained/
+  - https://towardsdatascience.com/item-based-collaborative-filtering-in-python-91f747200fab
+  - https://medium.com/data-science-in-your-pocket/recommendation-systems-using-neural-collaborative-filtering-ncf-explained-with-codes-21a97e48a2f7
+  - https://towardsdatascience.com/fast-ai-season-1-episode-5-1-movie-recommendation-using-fastai-a53ed8e41269
 
 
