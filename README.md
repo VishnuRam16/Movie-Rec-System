@@ -35,3 +35,10 @@
       - Item-based collaborative filtering is a recommendation system approach that provides individualized recommendations to users based on their preferences and the preferences of other users. It is a type of collaborative filtering that relies on item similarity rather than user preference.​ Item-based collaborative filtering generates suggestions by finding items that are comparable to those that a user has already expressed interest in.  
   - Neural Network based Collaborative Filtering
       - The Neural Network-based Collaborative Filtering (CF) model employs a deep learning method for recommendation systems. ​Using implicit feedback, we will train a recommender system. We siimply binarize the ratings such that they are '1' (i.e. positive class) to transform this dataset into an implicit feedback dataset. The number '1' indicates that the user watched the movie.​ This approach represents users and items as embeddings, which are low-dimensional vectors that capture their attributes. ​The embeddings of the user and items are fed into a neural network, which learns to predict ratings based on these embeddings. ​When compared to standard matrix factorization algorithms, our method captures complicated and non-linear interactions between users and things, resulting in more accurate suggestions.​
+   
+- Results
+  - Matrix Factorization – Best Score = 0.891​
+  - Item based Collaborative Filtering – As it works based on correlation, we get a different set of recommendations for different users based on the movies that they have watched. 
+  - Neural Network based Collaborative Filtering - We get a hit of 0.84, which means that 84% of the users got recommended the movie from the top 10 that they have interacted with. Which is a satisfactory score. ​
+
+
