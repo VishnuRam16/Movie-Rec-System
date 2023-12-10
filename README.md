@@ -27,6 +27,9 @@
   - Handling Null Values:​ Checked for null values in all files.​ Removed null values, considering the dataset's size and the negligible amount of missing data.​
   - Timestamp Conversion:​ Converted timestamp columns to datetime format.​ Extracted year and month from the timestamp for better exploratory data analysis (EDA).​
   - Column Exploration  & Processing:​ Explored unique values in columns across all files to gain a deeper understanding of the data.​ In the movies.csv file, genres were separated by pipes ('|').​ Converted the genres column into a list for more effective data analysis.
+  - Movie Title Processing:​ Separated movie names from the release date year in the title column to create an additional column for better EDA.​
+  - Merging DataFrames:​ Used a left join to merge the movies.csv and rating.csv DataFrames based on the common column 'movieId'.​ Resulted in a new DataFrame that facilitated data analysis and provided insights into movie ratings.​
+  - Popular Movie List:​ Created a new DataFrame to count the number of votes each movie received by considering the ratings given.​ Created another DataFrame to calculate the average rating for each movie.​ Merged the two DataFrames, yielding a list of popular movies with the number of ratings given by users and their average ratings.​ These preprocessing steps lay the foundation for subsequent exploratory data analysis and modeling. 
 
 - Proposed Models
   - Matrix Factorization
